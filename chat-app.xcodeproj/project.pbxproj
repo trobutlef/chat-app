@@ -14,6 +14,7 @@
 		EAC3845B28E0369700B195B3 /* chat_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC3845A28E0369700B195B3 /* chat_appTests.swift */; };
 		EAC3846528E0369700B195B3 /* chat_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC3846428E0369700B195B3 /* chat_appUITests.swift */; };
 		EAC3846728E0369700B195B3 /* chat_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC3846628E0369700B195B3 /* chat_appUITestsLaunchTests.swift */; };
+		EAC9A5BE28FDC8E200251DF6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC9A5BD28FDC8E200251DF6 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		EAC3846028E0369700B195B3 /* chat-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "chat-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAC3846428E0369700B195B3 /* chat_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chat_appUITests.swift; sourceTree = "<group>"; };
 		EAC3846628E0369700B195B3 /* chat_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chat_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EAC9A5BD28FDC8E200251DF6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,12 @@
 		EAC3844828E0369300B195B3 /* chat-app */ = {
 			isa = PBXGroup;
 			children = (
+				EAC9A5BD28FDC8E200251DF6 /* LoginView.swift */,
+				EAC9A58428FDC38F00251DF6 /* SecondaryViews */,
+				EAC9A58328FDC38100251DF6 /* LoginViews */,
+				EAC9A58228FDC2FE00251DF6 /* CustomCells */,
+				EAC9A58128FDC2F600251DF6 /* Model */,
+				EAC9A58028FDC2EE00251DF6 /* Util */,
 				EAC3844928E0369300B195B3 /* chat_appApp.swift */,
 				EAC3844B28E0369300B195B3 /* ContentView.swift */,
 				EAC3844D28E0369700B195B3 /* Assets.xcassets */,
@@ -125,6 +133,41 @@
 				EAC3846628E0369700B195B3 /* chat_appUITestsLaunchTests.swift */,
 			);
 			path = "chat-appUITests";
+			sourceTree = "<group>";
+		};
+		EAC9A58028FDC2EE00251DF6 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		EAC9A58128FDC2F600251DF6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EAC9A58228FDC2FE00251DF6 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		EAC9A58328FDC38100251DF6 /* LoginViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LoginViews;
+			sourceTree = "<group>";
+		};
+		EAC9A58428FDC38F00251DF6 /* SecondaryViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SecondaryViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAC9A5BE28FDC8E200251DF6 /* LoginView.swift in Sources */,
 				EAC3844C28E0369300B195B3 /* ContentView.swift in Sources */,
 				EAC3844A28E0369300B195B3 /* chat_appApp.swift in Sources */,
 			);

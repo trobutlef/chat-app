@@ -3,6 +3,7 @@ Chat App built with Swift, Firebase, MongoDB and WebRTC
 
 
 ## Todo
+  - [ ] Login/Register - Use Auth0 library
   - [ ] Encrypted text/group chat
   - [ ] Photo Messaging
   - [ ] Video Messaging
@@ -12,5 +13,4 @@ Chat App built with Swift, Firebase, MongoDB and WebRTC
   - [ ] Download media content from chats
   - [ ] Chat Avatars
   - [ ] Group Chats
-  - [ ] Login/Register
   - [ ] EXTRA: Video call using WebRTC
